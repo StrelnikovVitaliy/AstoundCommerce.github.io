@@ -4,7 +4,6 @@
   - SCSS
   - JS
   - GULP
-  - BEM
   - Cross Browser
   - Responsive
   
