@@ -31,7 +31,14 @@
         </p>
     </div>
     <form class="rating">
-        <a href="#" data-title="такую подсказку можно оформить" class="focus">Share it!</a>
+        <a href="#" class="focus" onclick="showHint('hint')">Share it!</a>
+        <div class="hint" id="hint">
+            <a href="#"><img src="images/fb.png" alt="FB icon"></a>
+            <a href="#"><img src="images/twwiter.png" alt="twwiter icon"></a>
+            <a href="#"><img src="images/pint.png" alt="pinterest icon"></a>
+            <a href="#"><img src="images/youtube.png" alt="youtube icon"></a>
+            <a href="#" onclick="showHint('hint')"><img src="images/close.png" alt=""></a>
+        </div>
         <label>
             <input type="radio" name="stars" value="1"/>
             <span class="icon">★</span>
@@ -190,5 +197,6 @@
     </div>
 </div>
 <script src="js/main.js"></script>
+<script src="js/hint.js"></script>
 </body>
 </html>
